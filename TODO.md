@@ -267,64 +267,64 @@
 ## Phase 6: デプロイ準備
 
 ### 6.1 ビルドの確認
-- [ ] バックエンドのビルド確認
+- [x] バックエンドのビルド確認
   ```bash
   cd backend
   npm run build
   ```
-- [ ] フロントエンドのビルド確認
+- [x] フロントエンドのビルド確認
   ```bash
   cd frontend
   npm run build
   ```
-- [ ] ビルドエラーの修正
+- [x] ビルドエラーの修正
 
 ### 6.2 本番環境用の設定
-- [ ] フロントエンドの `.env.production` 作成
-- [ ] バックエンドの本番環境用 CORS 設定
-- [ ] エラーログの設定確認
+- [x] フロントエンドの `.env.production` 作成
+- [x] バックエンドの本番環境用 CORS 設定
+- [x] エラーログの設定確認
 
 ### 6.3 Vercel 設定ファイルの作成
-- [ ] フロントエンド用 `vercel.json` の作成（必要に応じて）
-- [ ] バックエンド用 `vercel.json` の作成（Serverless Functions として設定）
+- [x] フロントエンド用 `vercel.json` の作成（必要に応じて）
+- [x] バックエンド用 `vercel.json` の作成（Serverless Functions として設定）
 
 ---
 
 ## Phase 7: デプロイ
 
 ### 7.1 バックエンドのデプロイ
-- [ ] Vercel CLI のインストール
+- [x] Vercel CLI のインストール
   ```bash
   npm install -g vercel
   ```
-- [ ] Vercel にログイン
+- [x] Vercel にログイン
   ```bash
   vercel login
   ```
-- [ ] バックエンドのデプロイ
+- [x] バックエンドのデプロイ
   ```bash
   cd backend
   vercel --prod
   ```
-- [ ] 環境変数の設定（Vercel Dashboard または CLI）
-  - [ ] `OPENAI_API_KEY` の設定
-  - [ ] `ALLOWED_ORIGINS` の設定
-- [ ] デプロイされた API の動作確認
+- [x] 環境変数の設定（Vercel Dashboard または CLI）
+  - [x] `OPENAI_API_KEY` の設定
+  - [x] `ALLOWED_ORIGINS` の設定
+- [x] デプロイされた API の動作確認
 
 ### 7.2 フロントエンドのデプロイ
-- [ ] `.env.production` にバックエンドの本番 URL を設定
-- [ ] フロントエンドのデプロイ
+- [x] `.env.production` にバックエンドの本番 URL を設定
+- [x] フロントエンドのデプロイ
   ```bash
   cd frontend
   vercel --prod
   ```
-- [ ] デプロイされたフロントエンドの動作確認
+- [x] デプロイされたフロントエンドの動作確認
 
 ### 7.3 統合確認
-- [ ] 本番環境でのエンドツーエンドテスト
-- [ ] 各機能の動作確認
-- [ ] パフォーマンスの確認
-- [ ] エラーハンドリングの確認
+- [x] 本番環境でのエンドツーエンドテスト
+- [x] 各機能の動作確認
+- [x] パフォーマンスの確認
+- [x] エラーハンドリングの確認
 
 ---
 

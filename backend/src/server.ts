@@ -40,7 +40,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api', chatRoutes);
 
 // ルートエンドポイント
-app.get('/', (req, res) => {
+app.get('/', (_req, res) => {
   res.json({
     message: 'AI Chat Backend API',
     version: '1.0.0',
