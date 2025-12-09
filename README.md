@@ -2,6 +2,10 @@
 
 プログラム開発とWebサイト作成の学習を支援する教育用AIチャットボット
 
+## 🚀 デモ
+
+**本番環境**: [https://frontend-nu-ten-17.vercel.app](https://frontend-nu-ten-17.vercel.app)
+
 ## 概要
 
 このアプリケーションは、JavaScript・HTML・CSSを学ぶ学生をサポートするために開発された教育用AIチャットボットです。OpenAI APIを使用し、プログラミング学習に特化した会話を提供します。
