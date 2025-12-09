@@ -366,9 +366,9 @@
 ## Phase 9: 運用とメンテナンス
 
 ### 9.1 監視設定
-- [ ] Vercel Analytics の有効化
-- [ ] エラーログの監視方法を確立
-- [ ] OpenAI API 使用量の監視
+- [x] Vercel Analytics の有効化
+- [x] エラーログの監視方法を確立（MONITORING.md作成）
+- [x] OpenAI API 使用量の監視（MONITORING.md作成）
 
 ### 9.2 メンテナンス計画
 - [ ] 定期的な依存関係の更新
