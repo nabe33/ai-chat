@@ -366,16 +366,34 @@
 ## Phase 9: 運用とメンテナンス
 
 ### 9.1 監視設定
+
 - [x] Vercel Analytics の有効化
 - [x] エラーログの監視方法を確立（MONITORING.md作成）
 - [x] OpenAI API 使用量の監視（MONITORING.md作成）
 
-### 9.2 メンテナンス計画
+### 9.2 CI/CD パイプラインの構築
+
+- [x] GitHub Actions ワークフローの作成
+  - [x] フロントエンド自動デプロイ（deploy-frontend.yml）
+  - [x] バックエンド自動デプロイ（deploy-backend.yml）
+- [x] Vercel API トークンとプロジェクトIDの設定
+- [x] GitHub Secrets の設定
+  - [x] VERCEL_TOKEN
+  - [x] VERCEL_ORG_ID
+  - [x] VERCEL_FRONTEND_PROJECT_ID
+  - [x] VERCEL_BACKEND_PROJECT_ID
+- [x] 自動デプロイの動作確認
+- [x] セットアップドキュメントの作成
+  - [x] DEPLOYMENT_SETUP.md（詳細ガイド）
+  - [x] SETUP_INSTRUCTIONS.md（クイックガイド）
+
+### 9.3 メンテナンス計画
+
 - [ ] 定期的な依存関係の更新
 - [ ] セキュリティパッチの適用
 - [ ] ユーザーフィードバックの収集方法を確立
 
-### 9.3 今後の機能追加の準備
+### 9.4 今後の機能追加の準備
 - [ ] v2.0 の機能要件の検討
 - [ ] ユーザーからのフィードバック収集
 - [ ] 優先順位の決定
